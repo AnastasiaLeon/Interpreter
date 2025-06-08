@@ -1,0 +1,17 @@
+add_library(dataflowscript
+    parser/ast.h
+    parser/parser.h
+    parser/parser.cpp
+    lexer/lexer.h
+    lexer/lexer.cpp
+    interpreter.h
+    interpreter.cpp
+    runtime/environment.h 
+    runtime/evaluator.h 
+    runtime/evaluator.cpp 
+    runtime/operations.cpp 
+    runtime/operations.h 
+    runtime/types.h 
+    runtime/utils.h 
+    runtime/utils.cpp
+)
